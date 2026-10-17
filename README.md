@@ -1,2 +1,24 @@
-# stock-king-pc-releases
-StockKing Windows PC update distribution
+# 주식왕 Windows PC 업데이트
+
+Windows 설치·업데이트 파일만 게시하는 배포 전용 저장소입니다. 게임 소스, 사용자 세이브, 서명 개인키는 이 저장소에 게시하지 않습니다.
+
+## 다운로드
+
+[릴리스 목록](https://github.com/hulkwwe90-coder/stock-king-pc-releases/releases)에서 게시된 버전의 설치 파일을 받으세요. 릴리스가 아직 없다면 파일 게시를 기다려 주세요.
+
+각 정식 릴리스의 첨부 파일:
+
+- `StockKing-Setup.exe`: 설치 프로그램
+- `StockKing-PC-버전-Windows-x64.zip`: 전체 실행본 및 인터넷 업데이트 패키지
+- `StockKing-update.json`: 앱이 검증하는 서명된 최신 버전 안내
+- `SHA256SUMS.txt`: 다운로드 파일 체크섬
+
+자동으로 표시되는 GitHub의 `Source code` ZIP/TAR는 이 배포 저장소의 문서이며 게임 전체 소스가 아닙니다.
+
+## 저장과 첫 설치
+
+PC 독립 세이브 3슬롯은 `%APPDATA%\StockKing-PC\Saves`에 보관하며 웹 세이브와 자동 공유하지 않습니다. 업데이트가 세이브를 삭제하거나 과거로 되돌리지 않습니다.
+
+인터넷 업데이트 주소가 없는 기존 PC 1.0.0/초기 1.1.0 검증본은 배포처가 포함된 설치본을 한 번 설치해야 합니다. 이후 메인 메뉴의 인터넷 업데이트에서 최신 버전을 확인합니다. 같은 버전이면 최신 상태로 표시하며, 더 높은 버전이 게시되면 다운로드·안전 저장·재시작 절차를 제공합니다.
+
+코드 서명 여부와 Windows 실제 실행 검증 범위는 해당 릴리스의 안내를 확인하세요.
